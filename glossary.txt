@@ -1,0 +1,4 @@
+NODE.js
+
+cr01 - run node in terminal
+cr02 - Creating a simple server
