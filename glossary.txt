@@ -17,3 +17,11 @@ cr04->
 cr05->
     cr5.js: FS module for handling files
     cr5b.js: Make a 'txt' file and write inside him, using a server call
+
+cr06->
+    index.js: 'Using Node.JS in Repl.it. Without installing anything on the PC [NodeJS with Repl.it]'
+
+cr07->
+    Modularizing App Routes
+    routes.js: schedule location of all routes
+    index.js: call routes, and make a door to acess content
