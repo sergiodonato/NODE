@@ -1,0 +1,1 @@
+console.log("To run NODE.js in terminal, open in focus directory and run : 'node <filename.js>")
