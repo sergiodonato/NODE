@@ -1,4 +1,11 @@
 NODE.js
 
-cr01 - run node in terminal
-cr02 - Creating a simple server
+cr01->
+    cr1.js: run node in terminal
+
+cr02->
+    cr2.js: Creating a simple server
+    
+cr03->
+    cr3.js: Creating Routes on the Server (no frameworks user)
+    cr3b.js: The beginning of passing parameters to the request

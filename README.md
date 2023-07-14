@@ -6,4 +6,4 @@ Material divided into folders with the abbreviation of the term classroom (cr(cl
 
 paste name: cr01, content: cr01.
 
-Look at the glossario.txt file for the contents of each lecture, extra file or folder.
+Look at the glossary.txt file for the contents of each lecture, extra file or folder.
