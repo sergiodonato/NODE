@@ -5,7 +5,15 @@ cr01->
 
 cr02->
     cr2.js: Creating a simple server
-    
+
 cr03->
     cr3.js: Creating Routes on the Server (no frameworks user)
     cr3b.js: The beginning of passing parameters to the request
+
+cr04->
+    cr4.js: Creating Routes using Express (only NODE example)
+    cr4b.js: using Express framework
+
+cr05->
+    cr5.js: FS module for handling files
+    cr5b.js: Make a 'txt' file and write inside him, using a server call
