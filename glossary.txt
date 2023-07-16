@@ -25,3 +25,9 @@ cr07->
     Modularizing App Routes
     routes.js: schedule location of all routes
     index.js: call routes, and make a door to acess content
+
+cr08->
+    Node with MySQL database #P1
+    npm install mysql2 --save
+    db.js:
+    index.js:
