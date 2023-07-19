@@ -34,7 +34,7 @@ cr07->
     index.js: call routes, and make a door to acess content
 
 
-cr08 (cr09 and cr10 ) ->
+cr08->
     Node with MySQL database
 
     traduction:
@@ -44,5 +44,12 @@ cr08 (cr09 and cr10 ) ->
     npm install mysql2 --save
     npm install dotenv
 
-    db.js: the connections that will be made, as well as connection parameters with schemas and tables
+    db.js: the connections that will be made, as well as connection parameters with schemas and tables;
     index.js: database connection, get search result, add new clients, delete and update datas...
+
+cr09->
+    Working with events in Node
+
+    require : http, events
+
+    index.js: when connecting to the server, it creates events with return messages from some operations.
