@@ -1,8 +1,11 @@
+const dotenv = require('dotenv');
+dotenv.config();
+
 const toConnect = async () => {
   if (global.conection && global.conection.state != "disconected")
     return global.conection;
   const mysql = require("mysql2/promise");
-  const con = mysql.createConnection(MYSQL_ACESS);
+  const con = mysql.createConnection(process.env.DB_CONNECTION);
   console.log("DB conected");
   global.conection = con;
   return con;
