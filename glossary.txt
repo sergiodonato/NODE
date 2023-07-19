@@ -1,14 +1,18 @@
 NODE.js
 
+
 cr01->
     cr1.js: run node in terminal
+
 
 cr02->
     cr2.js: Creating a simple server
 
+
 cr03->
     cr3.js: Creating Routes on the Server (no frameworks user)
     cr3b.js: The beginning of passing parameters to the request
+
 
 cr04->
     cr4.js: Creating Routes using Express (only NODE example)
@@ -18,16 +22,27 @@ cr05->
     cr5.js: FS module for handling files
     cr5b.js: Make a 'txt' file and write inside him, using a server call
 
+
 cr06->
     index.js: 'Using Node.JS in Repl.it. Without installing anything on the PC [NodeJS with Repl.it]'
 
+
 cr07->
     Modularizing App Routes
+
     routes.js: schedule location of all routes
     index.js: call routes, and make a door to acess content
 
-cr08->
-    Node with MySQL database #P1
+
+cr08 (cr09 and cr10 ) ->
+    Node with MySQL database
+
+    traduction:
+        nome = name
+        idade = age
+
     npm install mysql2 --save
-    db.js:
-    index.js:
+    npm install dotenv
+
+    db.js: the connections that will be made, as well as connection parameters with schemas and tables
+    index.js: database connection, get search result, add new clients, delete and update datas...

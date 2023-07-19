@@ -1,4 +1,4 @@
-const dotenv = require('dotenv');
+const dotenv = require("dotenv");
 dotenv.config();
 
 const toConnect = async () => {
@@ -17,4 +17,25 @@ const allClients = async () => {
   return await lines;
 };
 
-module.exports = { allClients };
+const insertedClient = async (client) => {
+  const con = await toConnect();
+  const sql = "INSERT INTO cliente_node (nome, idade) VALUES (?,?)";
+  const values = [client.nome, client.idade];
+  await con.query(sql, values);
+};
+
+const updatedClient = async (id, client) => {
+  const con = await toConnect();
+  const sql = "UPDATE cliente_node SET nome=?, idade=? WHERE id=?";
+  const values = [client.nome, client.idade, id];
+  await con.query(sql, values);
+};
+
+const deleteClient = async (id) => {
+  const con = await toConnect();
+  const sql = "DELETE FROM cliente_node WHERE id=?";
+  const values = [id];
+  await con.query(sql, values);
+};
+
+module.exports = { allClients, insertedClient, updatedClient, deleteClient };
