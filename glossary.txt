@@ -47,9 +47,16 @@ cr08->
     db.js: the connections that will be made, as well as connection parameters with schemas and tables;
     index.js: database connection, get search result, add new clients, delete and update datas...
 
+
 cr09->
     Working with events in Node
 
     require : http, events
 
     index.js: when connecting to the server, it creates events with return messages from some operations.
+
+
+cr12->
+    Uploading files in Node with the formidable module [Formidable]
+
+    npm instal formidable
