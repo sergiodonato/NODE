@@ -1,11 +1,11 @@
 const http = require("http");
 const door = process.env.PORT || 3000;
-const formidable = require("formidable");
+const formidavel = require("formidable");
 const fs = require("fs");
 
 const server = http.createServer((req, res) => {
   if (req.url == "/envioDeArquivo") {
-    const form = new formidable.IncomingForm();
+    const form = new formidavel.IncomingForm();
     form.parse(req, (erro, campos, arquivos) => {
       const urlantiga = arquivos.filetoupload.filepath;
       const urlnova =
